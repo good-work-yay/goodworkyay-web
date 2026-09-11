@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Good Work Yay</title>
+  <meta name="description" content="Good Work Yay is the trade name of GoodWork, LLC, a small software studio building focused mobile apps for deliberate practice." />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #ffffff;
+      color: #1a1a1a;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      padding: 28px 48px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #f2f2f2;
+    }
+
+    .logo {
+      font-size: 1.1rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: #1a1a1a;
+      text-decoration: none;
+    }
+
+    nav a {
+      font-size: 0.9rem;
+      color: #555;
+      text-decoration: none;
+      margin-left: 28px;
+    }
+
+    nav a:hover { color: #1a1a1a; }
+    nav a.active { color: #4f46e5; font-weight: 600; }
+
+    main { flex: 1; }
+
+    .wrap {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 64px 24px 80px;
+    }
+
+    .page-title {
+      font-size: 2.4rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      margin-bottom: 12px;
+    }
+
+    .lede {
+      font-size: 1.1rem;
+      color: #555;
+      line-height: 1.7;
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      margin-top: 44px;
+      margin-bottom: 12px;
+    }
+
+    h3 { font-size: 1rem; font-weight: 700; margin-bottom: 6px; }
+
+    p { font-size: 1rem; color: #444; line-height: 1.75; margin-bottom: 14px; }
+
+    ul { margin: 0 0 14px 20px; }
+    li { font-size: 1rem; color: #444; line-height: 1.75; margin-bottom: 4px; }
+
+    main p a, li a, dd a { color: #4f46e5; text-decoration: none; }
+    main p a:hover, li a:hover, dd a:hover { text-decoration: underline; }
+
+    .updated { font-size: 0.85rem; color: #aaa; margin-bottom: 40px; }
+
+    .details {
+      background: #f8f8f8;
+      border-radius: 16px;
+      padding: 24px 28px;
+      margin: 8px 0 16px;
+    }
+
+    .details dl { display: grid; grid-template-columns: 170px 1fr; gap: 10px 20px; }
+    .details dt { font-size: 0.9rem; font-weight: 600; color: #666; }
+    .details dd { font-size: 0.95rem; color: #1a1a1a; }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin: 24px 0 8px;
+    }
+
+    .card {
+      background: #f8f8f8;
+      border-radius: 16px;
+      padding: 26px 24px;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+
+    a.card:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.08); }
+
+    .card .icon { font-size: 1.8rem; margin-bottom: 12px; }
+    .card h3 { margin-bottom: 6px; }
+    .card p { font-size: 0.875rem; color: #666; line-height: 1.6; margin: 0; }
+
+    footer {
+      padding: 40px 48px;
+      text-align: center;
+      font-size: 0.85rem;
+      color: #999;
+      border-top: 1px solid #f0f0f0;
+    }
+
+    .foot-links { margin-bottom: 16px; }
+    .foot-links a { color: #555; text-decoration: none; margin: 0 12px; font-size: 0.875rem; }
+    .foot-links a:hover { color: #1a1a1a; }
+
+    footer a { color: #999; text-decoration: none; }
+    footer a:hover { color: #555; }
+
+    .legal {
+      font-size: 0.8rem;
+      color: #b0b0b0;
+      line-height: 1.6;
+      margin: 0 auto 8px;
+      max-width: 620px;
+    }
+
+    @media (max-width: 600px) {
+      header { padding: 20px; }
+      nav a { margin-left: 14px; font-size: 0.85rem; }
+      footer { padding: 28px 20px; }
+      .wrap { padding: 44px 20px 60px; }
+      .page-title { font-size: 1.9rem; }
+      .details dl { grid-template-columns: 1fr; gap: 4px 0; }
+      .details dd { margin-bottom: 10px; }
+      .foot-links a { margin: 0 8px 6px; display: inline-block; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a class="logo" href="/">Good Work Yay</a>
+    <nav>
+      <a href="/scriptdrill/">ScriptDrill</a>
+      <a href="/about.html" class="active">About</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <h1 class="page-title">About us</h1>
+      <p class="lede">
+        Good Work Yay is a small independent software studio. We build mobile
+        apps that help people practice something difficult until it feels easy.
+      </p>
+
+      <h2 style="margin-top:0;">Who we are</h2>
+      <p>
+        Good Work Yay is the trade name of <strong>GoodWork, LLC</strong>, a
+        limited liability company founded in 2026. This website,
+        goodworkyay.com, is the official website of GoodWork, LLC, and the apps
+        listed on it are published by GoodWork, LLC.
+      </p>
+      <p>
+        We are a small team. There is no sales department and no support queue
+        three layers deep &mdash; when you email us, you reach someone who works
+        on the app.
+      </p>
+
+      <h2>What we build</h2>
+      <p>
+        Our apps sit in one category: <em>deliberate practice</em>. The kind of
+        skill you cannot read your way into, only rehearse your way into.
+      </p>
+      <ul>
+        <li>
+          <strong><a href="/scriptdrill/">ScriptDrill</a></strong> &mdash; an AI
+          pronunciation coach. Write or paste any script, record yourself, and
+          get immediate feedback on pronunciation, rhythm, and delivery. Built
+          for interviews, presentations, and conversations you want to get right
+          the first time.
+        </li>
+      </ul>
+      <p>
+        More apps are in development. We would rather release one app we are
+        proud of than five we are not.
+      </p>
+
+      <h2>How we work</h2>
+      <p>
+        <strong>Focused.</strong> Every app does one thing properly. We cut
+        features that dilute the core of the product, even good ones.
+      </p>
+      <p>
+        <strong>Private by default.</strong> We collect the minimum data needed
+        to make an app work. We do not sell personal data, and we do not share it
+        with advertisers or data brokers. Our
+        <a href="/privacy.html">privacy policy</a> spells out exactly what that
+        means.
+      </p>
+      <p>
+        <strong>Reachable.</strong> Support email is answered by people who build
+        the software, usually within two business days.
+      </p>
+
+      <h2>Company details</h2>
+      <div class="details">
+        <dl>
+          <dt>Legal entity</dt>
+          <dd>GoodWork, LLC (GoodWork, Limited Liability Company)</dd>
+          <dt>Trade name</dt>
+          <dd>Good Work Yay</dd>
+          <dt>Entity type</dt>
+          <dd>Limited liability company</dd>
+          <dt>Founded</dt>
+          <dd>2026</dd>
+          <dt>Website</dt>
+          <dd><a href="https://goodworkyay.com">goodworkyay.com</a></dd>
+          <dt>Email</dt>
+          <dd><a href="mailto:hello@goodworkyay.com">hello@goodworkyay.com</a></dd>
+        </dl>
+      </div>
+      <p>
+        Questions about the company, partnerships, or press?
+        <a href="/contact.html">Contact us</a>.
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="foot-links">
+      <a href="/">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/scriptdrill/">ScriptDrill</a>
+      <a href="/contact.html">Contact</a>
+      <a href="/privacy.html">Privacy</a>
+      <a href="/terms.html">Terms</a>
+    </div>
+    <p class="legal">Good Work Yay is the trade name of GoodWork, LLC. goodworkyay.com is the official website of GoodWork, LLC.</p>
+    <p>&copy; 2026 GoodWork, LLC &nbsp;&middot;&nbsp; <a href="mailto:hello@goodworkyay.com">hello@goodworkyay.com</a></p>
+  </footer>
+
+</body>
+</html>
