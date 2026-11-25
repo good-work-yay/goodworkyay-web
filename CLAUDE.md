@@ -18,9 +18,9 @@ terms.html              # Terms of use
 scriptdrill/
   index.html            # ScriptDrill product landing page
   privacy.html          # ScriptDrill app privacy policy
-lull/
-  index.html            # Lull product + support page
-  privacy.html          # Lull app privacy policy
+dot-threads/
+  index.html            # Dot Threads product + support page
+  privacy.html          # Dot Threads app privacy policy (AdMob)
 ```
 
 Every page carries the same header nav and footer. The footer names the legal
