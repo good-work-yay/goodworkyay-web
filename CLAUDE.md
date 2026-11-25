@@ -38,3 +38,7 @@ Push to `main` → Cloudflare Pages auto-deploys. No build command, no preview s
 
 ## Orchestration
 This project is simple enough that subagents are rarely needed. If adding a new product page, copy the structure from `scriptdrill/index.html`.
+
+## Cloud sessions (Claude Code on the web)
+
+- 정적 HTML 이라 설치 단계가 없다. `main` 에 머지되면 Cloudflare Pages 가 자동 배포하므로 클라우드 세션은 PR 까지만.
