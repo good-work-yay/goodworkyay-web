@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lull — calm line puzzles</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #ffffff;
+      color: #1a1a1a;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      padding: 28px 48px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: #1a1a1a;
+    }
+
+    .logo-icon { font-size: 1.5rem; }
+
+    .logo-text {
+      font-size: 1.15rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    nav a {
+      font-size: 0.9rem;
+      color: #555;
+      text-decoration: none;
+      margin-left: 32px;
+    }
+
+    nav a:hover { color: #1a1a1a; }
+
+    main {
+      flex: 1;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 64px 24px 80px;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      margin-bottom: 8px;
+    }
+
+    .updated {
+      font-size: 0.85rem;
+      color: #aaa;
+      margin-bottom: 48px;
+    }
+
+    h2 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-top: 40px;
+      margin-bottom: 12px;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #444;
+      line-height: 1.75;
+      margin-bottom: 12px;
+    }
+
+    ul {
+      margin: 0 0 12px 20px;
+    }
+
+    ul li {
+      font-size: 1rem;
+      color: #444;
+      line-height: 1.75;
+    }
+
+    a { color: #4f46e5; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    footer {
+      padding: 32px 48px;
+      text-align: center;
+      font-size: 0.85rem;
+      color: #aaa;
+      border-top: 1px solid #f0f0f0;
+    }
+
+    footer a { color: #aaa; text-decoration: none; }
+    footer a:hover { color: #555; }
+
+    @media (max-width: 600px) {
+      header { padding: 20px; }
+      nav a { margin-left: 16px; }
+      footer { padding: 24px 20px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a class="logo" href="/">
+      <span class="logo-icon">🌙</span>
+      <span class="logo-text">Lull</span>
+    </a>
+    <nav>
+      <a href="/lull/">Lull</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Lull</h1>
+    <p class="updated">Calm line puzzles for winding down</p>
+
+    <p>Connect matching dots with soft threads and fill every square. No timers, no scores, no ads — just 400 quiet puzzles in a low-glare night palette made for a dark bedroom.</p>
+
+    <h2>How to play</h2>
+    <ul>
+      <li>Drag from a dot to its matching dot to lay a thread.</li>
+      <li>Threads can't cross. Every square on the board must be filled.</li>
+      <li>Stuck? Undo, Restart, or tap Hint to place one thread for you.</li>
+    </ul>
+
+    <h2>Support</h2>
+    <p>Found a bug or have a question? Email <a href="mailto:hello@goodworkyay.com">hello@goodworkyay.com</a> and we'll get back to you.</p>
+
+    <h2>Privacy</h2>
+    <p>Lull collects no data. Your progress stays on your device. Read the <a href="/lull/privacy">Lull privacy policy</a>.</p>
+  </main>
+
+  <footer>
+    <p>
+      © 2026 GoodWork, LLC
+      &nbsp;·&nbsp;
+      <a href="mailto:hello@goodworkyay.com">hello@goodworkyay.com</a>
+      &nbsp;·&nbsp;
+      <a href="/privacy">Website Privacy</a>
+      &nbsp;·&nbsp;
+      <a href="/terms">Terms</a>
+    </p>
+  </footer>
+
+</body>
+</html>
