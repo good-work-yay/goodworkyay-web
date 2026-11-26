@@ -5,7 +5,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "cd /Users/sewookwee/my-devel/goodworkyay-web && git diff --stat HEAD 2>/dev/null | head -20"
+            "command": "cd \"$CLAUDE_PROJECT_DIR\" && git diff --stat HEAD 2>/dev/null | head -20"
           }
         ]
       }
