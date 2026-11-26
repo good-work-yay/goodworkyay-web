@@ -21,6 +21,9 @@ scriptdrill/
 dot-threads/
   index.html            # Dot Threads product + support page
   privacy.html          # Dot Threads app privacy policy (AdMob)
+tide-sort/
+  index.html            # Tide Sort product + support page
+  privacy.html          # Tide Sort app privacy policy (AdMob)
 ```
 
 Every page carries the same header nav and footer. The footer names the legal
